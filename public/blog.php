@@ -11,12 +11,12 @@ $posts = $pdo->query("SELECT id, title, slug, featured_image, created_at FROM bl
       <div class="col-md-4">
         <div class="card shadow-sm">
           <?php if($post['featured_image']): ?>
-            <img src="/uploads/blog_images/<?= htmlspecialchars($post['featured_image']) ?>" class="card-img-top" alt="<?= htmlspecialchars($post['title']) ?>">
+            <img src="..//uploads/blog_images/<?= htmlspecialchars($post['featured_image']) ?>" class="card-img-top" alt="<?= htmlspecialchars($post['title']) ?>">
           <?php endif; ?>
           <div class="card-body">
             <h5 class="card-title"><?= htmlspecialchars($post['title']) ?></h5>
             <p class="card-text"><small class="text-muted"><?= date('M d, Y', strtotime($post['created_at'])) ?></small></p>
-            <a href="/blog_post.php?slug=<?= htmlspecialchars($post['slug'] ?: $post['id']) ?>" class="btn btn-outline-primary">Read More</a>
+            <a href="blog_post.php?slug=<?= htmlspecialchars($post['slug'] ?: $post['id']) ?>" class="btn btn-outline-primary">Read More</a>
           </div>
         </div>
       </div>
