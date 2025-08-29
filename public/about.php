@@ -7,7 +7,7 @@
       <!-- Image -->
       <div class="col-md-6">
         <div class="position-relative">
-          <img src="/assets/images/about.jpg" class="img-fluid rounded shadow-lg" alt="About Us">
+          <img src="..//assets/images/adeylogo.jpg" class="img-fluid rounded shadow-lg" alt="About Us">
           <div class="position-absolute top-0 start-0 w-100 h-100 rounded shadow" style="background: rgba(0,0,0,0.05);"></div>
         </div>
       </div>

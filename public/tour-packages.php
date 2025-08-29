@@ -1,7 +1,7 @@
 <?php $page_title='Tour Packages'; include('../includes/header.php'); ?>
 
 <!-- Hero Section -->
-<section class="hero" style="background: url('../assets/images/tour_hero.jpg') center/cover no-repeat; height: 70vh; position: relative;">
+<section class="hero" style="background: url('../assets/images/tour1.jpg') center/cover no-repeat; height: 70vh; position: relative;">
   <div class="overlay" style="position:absolute; inset:0; background: rgba(0,0,0,0.4);"></div>
   <div class="content" style="position: relative; color: #fff; top:50%; transform: translateY(-50%); text-align:center;">
     <h1 class="display-4 fw-bold">Our Tour Packages</h1>
